@@ -13,3 +13,5 @@ internal fun createDrawable(@ColorInt color: Int, radius: Int) = GradientDrawabl
 internal fun Context.getColors(res: Int) = ContextCompat.getColor(this, res)
 
 internal fun String.Companion.empty() = ""
+
+internal fun Context.getDimen(res: Int) = resources.getDimension(res).toInt()

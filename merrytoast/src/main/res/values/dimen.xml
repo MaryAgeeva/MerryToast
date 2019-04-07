@@ -2,6 +2,7 @@
 <resources>
     <dimen name="margin_small">4dp</dimen>
     <dimen name="margin_medium">8dp</dimen>
+    <dimen name="margin_big">12dp</dimen>
     <dimen name="margin_large">16dp</dimen>
 
     <dimen name="text_size_small">12sp</dimen>
@@ -13,4 +14,6 @@
     <dimen name="corner_radius_large">24dp</dimen>
 
     <dimen name="icon_size">32dp</dimen>
+
+    <dimen name="toast_fixed_width">250dp</dimen>
 </resources>

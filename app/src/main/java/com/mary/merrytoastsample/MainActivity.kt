@@ -24,6 +24,11 @@ class MainActivity : AppCompatActivity() {
 
         MerryToast.Builder(this).shape(Shapes.OVAL).color(Colors.VIOLET).text("Shape toast").build()
 
+        MerryToast.Builder(this).textColor(Colors.VIOLET).color(Colors.WHITE).text("Colors toast").build()
+
+        MerryToast.Builder(this).image(R.drawable.icon_batman).color(Colors.BLACK).text("Batman toast")
+            .shape(Shapes.OVAL).fixedSize().build()
+
         MerryToast.info(this, "Info toast")
 
         MerryToast.warn(this, "Warning toast")

@@ -3,24 +3,29 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_margin="@dimen/margin_medium"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_large"
     android:background="@drawable/toast_background"
+    android:layout_gravity="bottom"
     android:id="@+id/toast_root">
 
     <ImageView
         android:id="@+id/toast_icon"
         android:layout_width="@dimen/icon_size"
         android:layout_height="@dimen/icon_size"
-        android:layout_margin="@dimen/margin_medium"
+        android:layout_marginStart="@dimen/margin_big"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:layout_marginEnd="@dimen/margin_big"
+        android:layout_marginBottom="@dimen/margin_medium"
         android:visibility="gone"
+        android:layout_gravity="center"
         android:scaleType="centerInside"/>
 
     <TextView
         android:id="@+id/toast_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="@dimen/margin_medium"
+        android:padding="@dimen/margin_big"
         android:textColor="@color/white"
         android:gravity="center"
         android:layout_gravity="center"
