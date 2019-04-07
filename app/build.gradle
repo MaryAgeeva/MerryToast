@@ -1,20 +1,10 @@
 apply plugin: 'com.android.application'
 
-apply plugin: 'com.github.dcendents.android-maven'
-
 apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
 
 apply plugin: 'kotlin-kapt'
-
-group='com.github.MaryAgeeva'
-
-repositories {
-    google()
-    jcenter()
-    maven { url "https://jitpack.io" }
-}
 
 android {
     compileSdkVersion 28
@@ -48,5 +38,5 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-    implementation project(path: ':merrytoast')
+    implementation project(':merrytoast')
 }
