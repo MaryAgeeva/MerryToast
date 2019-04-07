@@ -1,4 +1,5 @@
 # MerryToast
+[![](https://jitpack.io/v/MaryAgeeva/MerryToast.svg)](https://jitpack.io/#MaryAgeeva/MerryToast)
 
 Small library for making customized toasts messages (Android)
 
@@ -24,10 +25,33 @@ Step 2. Add the dependency
 
 ```
 dependencies {
-	    implementation 'com.github.MaryAgeeva:MerryToast:Tag'
+	    implementation 'com.github.MaryAgeeva:MerryToast:0.1-alpha'
 }
 ```
 
+  * Maven:
+  -------
+  
+  Step 1. Add the JitPack repository to your build file
+  
+```
+<repositories>
+	<repository>
+	    <id>jitpack.io</id>
+	    <url>https://jitpack.io</url>
+	</repository>
+</repositories>
+```
+  
+  Step 2. Add the dependency
+  
+```
+<dependency>
+    <groupId>com.github.MaryAgeeva</groupId>
+    <artifactId>MerryToast</artifactId>
+    <version>0.1-alpha</version>
+</dependency>
+```
 Usage:
 -------
 
