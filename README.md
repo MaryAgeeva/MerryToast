@@ -40,3 +40,4 @@ Also, you can create custom versions of Toasts using Builder:
 
 Examples:
 -------
+[[https://github.com/MaryAgeeva/MerryToast/blob/master/screenshots/toast_batman.png]]
