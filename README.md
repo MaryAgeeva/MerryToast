@@ -40,4 +40,19 @@ Also, you can create custom versions of Toasts using Builder:
 
 Examples:
 -------
-[[https://github.com/MaryAgeeva/MerryToast/blob/master/screenshots/toast_batman.png]]
+  * Custom
+  
+![Custom](screenshots/toast_batman.png)
+
+  * Warning toast
+  
+![Warning](screenshots/toast_warn.png)
+
+  * Info toast
+  
+![Info](screenshots/toast_info.png)
+
+  * Success toast
+  
+![Success](screenshots/toast_success.png)
+
